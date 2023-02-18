@@ -1,0 +1,27 @@
+*{
+    background-color: #4a5255;
+}
+.Box{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    }
+
+.Button{
+    margin-top: 400px;
+    width: 150px;
+    height: 50px;
+    outline: none;
+    border:none;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 9px 18px, rgba(0, 0, 0, 0.22) 0px 5px 3px;
+    transition: all .4s;
+}
+
+.Button:hover{
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    cursor: pointer;
+}
+
+
+
