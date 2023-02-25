@@ -1,0 +1,24 @@
+body{
+    background-color: #495354;
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    margin-top: 400px;
+    width: 150px;
+    height: 50px;
+    border-radius: 20px;
+    color: rgb(100, 100, 88);
+    border: 1px solid rgb(100, 100, 88);
+    box-shadow: 0px 7px 0px rgb(100, 100, 88);
+    background-color: #495354;
+    transition: all 0.1s;
+    font-size: large;
+    cursor: pointer;
+}
+
+button:active{
+    transform: translateY(5px);
+    box-shadow: none;
+}
