@@ -1,0 +1,42 @@
+body{
+    background-color: #495354;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+  margin-top: 400px;
+  display: block;
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+  position: relative;
+}
+
+.container input {
+  position: absolute;
+  transform: scale(0);
+}
+
+.container .checkmark {
+  display: block;
+  width: 30px;
+  height: 30px;
+  border: 2px solid #ffffff;
+  border-radius: 10px;
+  transition: all .3s;
+}
+
+.container input:checked ~ .checkmark {
+  transform: rotate(45deg);
+  height: 30px;
+  width: 12px;
+  border-color: #ffffff;
+  border-top-color: transparent;
+  border-left-color: transparent;
+  border-radius: 3px;
+  margin-left: 5px;
+}
+
+
+  
