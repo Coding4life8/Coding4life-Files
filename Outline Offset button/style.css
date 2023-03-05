@@ -1,0 +1,27 @@
+body{
+    background-color: #495354;
+    display: flex;
+    justify-content: center;
+}
+
+.btn{
+    width: 130px;
+    height: 60px;
+    background-color: transparent;
+    border: none;
+    outline: 1px solid #495354;
+    outline-offset: -8px;
+    background-color:#ffffff;
+    background-size: cover;
+    color: #495354;
+    margin-top: 400px;
+    transition: all .2s linear;   
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    outline-offset: -16px;
+    opacity: 0.8;
+}
+
